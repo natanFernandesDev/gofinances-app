@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { HightlighCard } from '../../components/HighlightCard';
+import { TransactionCard } from '../../components/TransactionsCard';
 
 import { 
     Container,
@@ -12,8 +13,9 @@ import {
     UserGreeting,
     UserName,
     Icon,
-    HighlightCards
-
+    HighlightCards,
+    Transactions,
+    Title
 } from './styles';
 
 // Nota-se que agora é obrigatorio passar as propriedades do componente, HighlighCards.
@@ -55,6 +57,11 @@ export function Dashboard() {
                     type='total'
                 />
             </HighlightCards>
+
+            <Transactions>
+                <Title> Listagem</Title>
+                <TransactionCard/>
+            </Transactions>
 
         </Container>
     );
