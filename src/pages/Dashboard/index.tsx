@@ -102,6 +102,7 @@ export function Dashboard() {
 
             <Transactions>
                 <Title> Listagem</Title>
+
                 <TransactionList
                     data={data}
                     keyExtractor= { item => item.id }

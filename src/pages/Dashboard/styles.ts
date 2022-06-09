@@ -1,4 +1,5 @@
 import styled from "styled-components/native"
+
 import { FlatList } from "react-native";
 import { AnyStyledComponent } from "styled-components";
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
