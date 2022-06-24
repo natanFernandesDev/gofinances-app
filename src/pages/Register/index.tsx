@@ -7,7 +7,6 @@ import {
     Header,
     Title,
     Form
-    
 } from "./styles";
 
 export function Register() {
